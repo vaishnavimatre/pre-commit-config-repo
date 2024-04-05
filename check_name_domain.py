@@ -2,7 +2,6 @@
 import subprocess
 
 
-
 expectedName = "vaishnavimatre"
 name = subprocess.run(["git", "config", "user.name"], capture_output=True, text=True).stdout.strip()
 
