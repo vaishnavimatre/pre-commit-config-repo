@@ -4,7 +4,6 @@
 domain="vaishnavimatre8@gmail.com"
 email="$(git config user.email)"
 
-
 if [["$email" == "$domain"]];then 
     echo "You are using email as per configuration, proceeding to commit"
     exit 0
