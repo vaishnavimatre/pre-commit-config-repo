@@ -2,6 +2,7 @@ default_install_hook_types:
  [pre-commit]
 
 
+
 repos:
  - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
    rev: v2.12.0
