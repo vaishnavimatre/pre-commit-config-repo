@@ -9,7 +9,6 @@ repos:
        args: [--autofix, --google-java-formatter-version=1.21.0]
 
 
-
  - repo: local
    hooks:
      - id: check_commiter_email_id
